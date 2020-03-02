@@ -9,7 +9,7 @@
   }
 
   .container-fluid {
-    padding: 3% 15%;
+    padding: 3% 15% 7%;
   }
 
   h1 {
@@ -65,12 +65,16 @@
   .title-class {
     width: 60%;
     transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
   }
 
 
   /* Features Section */
     #features {
       padding: 10%;
+      background-color: #fff;
+      position: relative;
     }
 
     .feature-box {
@@ -114,3 +118,43 @@
      width: 15%;
      margin: 20px 20px 50px;
    }
+
+/* Pricing Section */
+
+  #pricing {
+    padding: 100px;
+    text-align: center;
+  }
+
+  .pricing-column {
+  padding: 3% 2%;
+  }
+
+  /* CTA */
+  #cta {
+    background-color: #ff4c68;
+    color: #ffff;
+    text-align: center;
+    padding: 10% 10%;
+  }
+
+  .cta-heading {
+    font-weight: 900;
+    font-size: 1.5rem;
+  }
+
+  #footer {
+    padding: 15% 17%;
+    text-align: center;
+  }
+
+  .social-icon {
+    margin: 20px 10px;
+  }
+
+  @media (max-width:1028px) {
+    .title-class {
+      position:static;
+      transform: rotate(0);
+    }
+  }
